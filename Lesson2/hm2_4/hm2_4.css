@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: lightgoldenrodyellow;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_font {
+    font-family: "Rubik Pixels", sans-serif;
+}
+
+.second_font {
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+.third_font {
+    font-family: "Dancing Script", cursive;
+}
+
+.fourth_font {
+    font-family: "Fjalla One", sans-serif;
+}
+
+.fifth_font {
+    font-family: "Indie Flower", cursive;
+}
