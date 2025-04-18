@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+
+}
+
+section {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+section a {
+    color: black;
+}
+
+section p {
+    width: 80%;
+}
+
+#top-section {
+    background-color: pink;
+}
+
+#middle-section {
+    background-color: aquamarine;
+}
+
+#bottom-section {
+    background-color: lightgreen;
+}
