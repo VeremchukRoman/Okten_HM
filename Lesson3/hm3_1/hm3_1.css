@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 2%;
+}
+
+header, section, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+}
+
+
+.header {
+    height: 40vh;
+    background-color: dodgerblue;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+
+.section {
+    height: 30vh;
+    width: 32%;
+    background-color: #1c1cb8;
+}
+
+.footer {
+    height: 90vh;
+    background-color: dodgerblue;
+}
