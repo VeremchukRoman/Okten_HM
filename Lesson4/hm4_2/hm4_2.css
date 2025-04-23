@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+header, section, aside, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+header {
+    height: 20vh;
+    background: #8D8484;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    color: white;
+    height: 20vh;
+    width: 73vw;
+}
+
+.top-section {
+    background: #776969;
+}
+
+.middle-section {
+    background: #643030;
+}
+
+.bottom-section {
+    background: #441818;
+}
+
+aside {
+    color: white;
+    height: 30vh;
+    width: 27vw;
+}
+
+.top-aside {
+    background: #937575;
+}
+
+.bottom-aside {
+    background: #644C4C;
+}
+
+footer {
+    height: 20vh;
+    background: #BDBDBD;
+}
