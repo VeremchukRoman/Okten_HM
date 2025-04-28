@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+}
+
+.boat {
+    width: 200px;
+    height: 200px;
+    animation: animate 3s linear infinite alternate;
+}
+
+@keyframes animate {
+    from {
+        transform: translate(0, 210px);
+    }
+    10% {
+        transform: translate(80px, 190px);
+    }
+    20% {
+        transform: translate(160px, 220px);
+    }
+    30% {
+        transform: translate(240px, 200px);
+    }
+    40% {
+        transform: translate(320px, 230px);
+    }
+    50% {
+        transform: translate(400px, 190px);
+    }
+    60% {
+        transform: translate(480px, 220px);
+    }
+    70% {
+        transform: translate(560px, 190px);
+    }
+    80% {
+        transform: translate(640px, 210px);
+    }
+    90% {
+        transform: translate(720px, 190px);
+    }
+    to {
+        transform: translate(800px, 210px);
+    }
+}
+
+

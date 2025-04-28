@@ -1,0 +1,20 @@
+.circle {
+    margin: 200px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: 30px solid green;
+    border-right: 30px solid greenyellow;
+    border-bottom: 30px solid lightsalmon;
+    border-left: 30px solid steelblue;
+    animation: animate 4s linear infinite alternate;
+}
+
+@keyframes animate {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(-360deg) scale(1.2);
+    }
+}
