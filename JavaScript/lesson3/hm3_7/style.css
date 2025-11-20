@@ -1,0 +1,14 @@
+
+.users-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.user-block {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
